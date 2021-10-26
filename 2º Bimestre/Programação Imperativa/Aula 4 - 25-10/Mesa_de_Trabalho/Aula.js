@@ -1,36 +1,6 @@
-var x = 7 // Atribuição 
-
-//console.log(x);
 
 
-const y = 6; // Variavel que não pode ser alterado.
 
-//console.log(y);
-
-let z = 2; // EH O NOVO VAR
-z = 3;
-
-//let soma = x + y + z;
-//console.log(soma);
-
-//let subtracao = x - y - z;
-//console.log(subtracao);
-
-
-//let divisao = x / y / z;
-//console.log(divisao);
-
-//let multiplicacao = x * y * z;
-//console.log(multiplicacao);   
-
-// Para comentar um texto utilizar */ */
-// CTRL + * 
-
-let nome = "Juliane";
-console.log(nome);
-let idade = 31;
-console.log(nome,idade);
-console.log(nome + " - "+ idade);
 
 
 /*Praticar o uso de operadores aritméticos
@@ -106,10 +76,11 @@ sobrenome = "da Silva"
 idade = 27; 
 peso = 83.5;
 altura = 1.70;
+plano = "tem";
 
 imc = peso /(altura * altura)
-console.log(nome + "tem o imc de:" + imc)
-
+console.log(nome + " " + "tem o imc de:" + imc +
+ " e "+  plano + " Plano de Saúde")
 
 
 nome = "Carlos";
@@ -117,10 +88,11 @@ sobrenome = "de Souza"
 idade = 28; 
 peso = 80.1;
 altura = 1.76;
+plano = "tem";
 
 imc = peso /(altura * altura)
-console.log(nome + "tem o imc de:" + imc)
-
+console.log(nome + " " + "tem o imc de:" + imc +
+ " e "+  plano + " Plano de Saúde")
 
 
 
@@ -129,10 +101,11 @@ sobrenome = "Ferreira"
 idade = 33; 
 peso = 63.7;
 altura = 1.53;
+plano = "não tem"
 
 imc = peso /(altura * altura)
-console.log(nome + "tem o imc de:" + imc)
-
+console.log(nome + " " + "tem o imc de:" + imc +
+ " e "+  plano + " Plano de Saúde")
 
 
 
@@ -141,6 +114,8 @@ sobrenome = "Paula"
 idade = 26; 
 peso = 55.0;
 altura = 1.62;
+plano = "tem"
 
 imc = peso /(altura * altura)
-console.log(nome + "tem o imc de:" + imc)
+console.log(nome + " " + "tem o imc de:" + imc +
+ " e "+  plano + " Plano de Saúde")
