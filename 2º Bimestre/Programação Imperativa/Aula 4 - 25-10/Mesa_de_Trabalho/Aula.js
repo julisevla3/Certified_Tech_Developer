@@ -20,6 +20,24 @@
 7) Crie mensagens concatenadas com valores diferentes.
    */
 
+let x = 20
+let y = 2
+
+console.log(x + y)
+console.log(x * y)
+
+let z = 2
+
+console.log(x + y + z)
+
+z = '1' + 1
+
+z = 'olá' + 23
+
+console.log(x + '-' + y)
+
+
+
 
 // Exercício:
 // Um nutricionista enviou a seguinte tabela com os dados de seus clientes e, você será responsável por calcular o Índice de Massa Corporal de cada registro:
