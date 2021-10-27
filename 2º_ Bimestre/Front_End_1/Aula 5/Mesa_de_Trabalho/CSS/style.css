@@ -1,0 +1,36 @@
+body {
+    background-color:white;
+    color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color:rgba(11, 11, 126, 0.979);
+    padding: 50px 25px 5px 25px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.job-title {
+    background-color: slategrey;
+    color:whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+
+#high {
+    color: #0d1b97
+}
+
+ul {
+    background-color: rgba(11, 11, 126, 0.979);
+    color: whitesmoke;
+    padding: 10px 25px;
+}
+
+h2 {
+    color: #0d1b97;
+    font-size: 20px;
+}
