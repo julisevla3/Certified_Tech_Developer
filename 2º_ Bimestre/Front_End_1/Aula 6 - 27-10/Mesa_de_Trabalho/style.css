@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: black;
+    
+    
+}
+
+.media-picture {
+    background-image: url("https://blog.br.playstation.com/tachyon/sites/4/2021/10/04a42d69644062039caf72f2f63b94dd78f343e4.jpg?resize=1088%2C612&crop_strategy=smart&zoom=1");
+     background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+
+
+    
+}
+h1,h2{
+    font-family: 'Roboto', sans-serif;
+    color: cornsilk;
+
+}
+
+    h2{
+        color:rgb(39, 139, 221) ;
+        font-size:xx-large;
+    }
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: ghostwhite;
+    font-size: large;
+}
+.letraE{
+    color:rgb(39, 139, 221);
+    font-size: xx-large;
+}
+
+h3{
+    font-size:medium ;
+    color:rgb(39, 139, 221) ;
+}
