@@ -1,0 +1,25 @@
+div {
+    background-image:url(img/Angelina-Jolie-Eternos-1.jpg);   
+    height: 1500px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    padding: vertical;
+    box-sizing: border-box;
+ }
+
+ button{
+     border: burlywood 5px solid;
+     border-radius: 12px;
+     background-color:burlywood ;
+     margin-top: 20px;
+     margin-left: 25px;
+
+
+ }
+
+h1, h2 {
+    color: beige;
+    text-align: center;
+    font-size: 82px;
+    padding: 5%;
+}

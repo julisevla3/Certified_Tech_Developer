@@ -1,0 +1,45 @@
+/* para zerar as conffigurações pré definidas na pagina*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+
+
+div{
+    width: 300px;
+    background: pink; 
+    /* padding: 24px; */
+    /* padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 42px; */
+    padding: 24px 45px;
+    right: auto;
+    border-radius: 12px;
+    box-sizing: border-box;
+
+}
+
+
+a {
+    background:green;
+    /* padding-top: 24px; */
+    /* display: block; */
+    /* margin-top: 24px; */
+    margin-top: 50px;
+}
+
+h1{
+    padding-bottom: 32px;
+}
+
+h1, p{
+    margin: 0;
+}
+button{
+    border: 5px rgb(230, 17, 52) solid; 
+    border-radius: 12px;
+}
