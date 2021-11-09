@@ -1,0 +1,79 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+
+.first-square {
+    width           : 200px;
+    height          : 200px;
+    background-color: blue;
+    padding         : 24px;
+    position        : relative;
+    display         : table;
+
+}
+
+.second-square {
+    background-color: greenyellow;
+    position        : fixed;
+    width           : 200px;
+    height          : 200px;
+    bottom          : 24px;
+    right           : 45%;
+    padding         : 24px;
+    position        : fixed;
+    display         : table;
+
+
+}
+
+.third-square {
+    background-color: rgb(255, 89, 47);
+    width           : 200px;
+    height          : 200px;
+    right           : 0px;
+    top             : 0;
+    padding         : 24px;
+    position        : absolute;
+    display         : table;
+
+}
+
+
+.caixa1 {
+
+    width           : 100%;
+    height          : 100%;
+    background-color: rgb(235, 135, 230);
+    vertical-align  : middle;
+    text-align      : center;
+    display         : table-cell;
+
+
+}
+
+.caixa2 {
+
+    width           : 100%;
+    height          : 100%;
+    background-color: red;
+    text-align      : center;
+    vertical-align  : middle;
+    display         : table-cell;
+
+
+
+}
+
+.caixa3 {
+
+    width           : 100%;
+    height          : 100%;
+    background-color: rgb(158, 135, 235);
+    text-align      : center;
+    vertical-align  : middle;
+    display         : table-cell;
+
+}

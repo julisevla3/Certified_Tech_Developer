@@ -1,0 +1,43 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                .square {
+                    width: 200px;
+                    height: 200px;
+                    margin-bottom: 12px;
+                }
+                
+                .first-square {
+                    background-color: crimson;
+                }
+                
+                .second-square {
+                    background-color: greenyellow;
+                    position: fixed;
+                    width: 100px;
+                    height: 100px;
+                    bottom: 24px;
+                    right: 24px;
+                    /* position: absolute;
+                    top: 50%;
+                    left: 50%;
+                     /* O absoluto serve pra subescrever imagem ou texto*/
+                    /* position: relative;
+                    left: 100px; */
+                    /*o left só funciona se tiver o position*/
+                }
+                
+                .third-square {
+                    background-color: palevioletred;
+                }
+                
+                header {
+                    width: 100%;
+                    position: fixed;
+                    background-color: yellow;
+                    z-index: 20;
+                    ;
+                }
