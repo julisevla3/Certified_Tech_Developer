@@ -15,35 +15,25 @@
 
 
 function podeSubir (altura, acompanhada){
-    return false;
+    return exibeMensagem (altura,acompanhada );
 }
-
-let altura = " "
-let acompanhada = true
-
-let mensagem;
-
-switch (altura){
-    case "altura":
-        mensagem = exibeMensagem (altura,acompanhada );
-        break;
-
-
-    }
 
     function exibeMensagem(alturaPessoa, acompanhadaPessoa){
         let mensagem;
-    }
-        if (alturaPessoa >= 1.40 ||  alturaPessoa <= 2){
+   
+        if (alturaPessoa >= 1.40 &&  alturaPessoa <= 2){
             mensagem = "Acesso autorizado"
         }
     else if (alturaPessoa >= 1.20 && alturaPessoa <= 1.40 ){
-    mensagem = "Deverá ir acompanhada";
+       if (acompanhadaPessoa){
+           
+       }
 }
 
-    else if (alturaPessoa > 1.20 ){
+    else if (alturaPessoa < 1.20 ){
     mensagem = "Não poderá subir, nem acompanhada."
 }
+return mensagem;
+    }
 
-
-console.log(podeSubir(1.40, true));
+console.log(podeSubir(1.19, true));
