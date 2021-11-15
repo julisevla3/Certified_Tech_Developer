@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1,h2, h3,h4,h5,h6,p,a {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.main-header {
+    background-color:#bbbbbb;
+    padding: 24px 0;
+    position: fixed;
+    width: 100%
+ 
+}
+
+.main-header nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+/* Sempre informar o pai para poder colocar um do lado do outro */
+.main-header nav ul {
+    display: flex;
+    /* retira caracteristicas desnecessários */
+    list-style: none;
+     /* Dar espaço somente qnd tem flex ou grid */
+    gap: 32px;
+
+
+}
+
+.main-header li a {
+    /* remove o link o @ */
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 50px;
+    color:#678983 ;
+}
+
+
+.main-header li .active {
+    font-weight: 500;
+}
+
+.main-header a img{
+    width: 60px;
+    margin-right:0;
+}
+
+.main-header li.ative{
+    font-weight: 500;
+}
+
+
+
+.main-content .banner{
+    width: 100%;
+    height: 600px;
+    /* Mantem a imagem sem distorcer */
+    object-fit: cover; 
+}
+
+.main-content .products{
+    /* Coloca as blocos um do lado do outro */
+    display: flex;
+    /* Dar espaços entre os blocos */
+    gap: 32px;
+    /* Colocar para baixo qnd não da mais espaços na linha */
+    flex-wrap: wrap;
+    /* Espaço entre os blocos de forma centralizada */
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 72px auto;
+
+
+}
+
+.main-content .products .product{
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius:12px; 
+    margin-bottom: 32px;
+  
+       
+}
+
+.main-content .product img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+       
+}
+.main-content .product h1{
+    font-size: 24px;
+    margin: 12px 0 6px;
+}
+
+.main-content .product p{
+   
+    color: rgba(0, 0, 0, 0.568);
+    margin-bottom:18px ;
+ 
+}
+
+.main-content .product a {
+    /* tira o link dele */
+  text-decoration: none;
+  /* mantem ele no bloco todo */
+  display: block;
+  background-color: rgb(69, 69, 224);
+  text-align: center;
+  padding: 24px 0;
+  color: white;
+  border-radius:12px; 
+}
+.main-content .product main {
+    padding: 12px;
+
+}
+
+.contact {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+
+}
+
+.contact img {
+    width: 60px;
+}
