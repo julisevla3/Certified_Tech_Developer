@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 24px;
+}
+
+legend {
+    font-size: 30px;
+}
+
+#rodape {
+    padding: 5px;
+    text-align: center;
+    background-color:black;
+    margin-top: 32px;
+
+}
+
+.icones{
+    width: 40px;
+    height: 40px;
+    margin: 10px
+}
+

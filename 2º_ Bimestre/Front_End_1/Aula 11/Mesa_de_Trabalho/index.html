@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>Verdadeiro sabor</header>
+    <h1>Cardapio 2021</h1>
+
+    <main>
+
+
+        <div>
+            <form>
+                <h1>Cadastro de Usuário</h1>
+
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    <div>
+                        <label for="">Nome do Completo</label>
+
+                        <!-- Cria caixa de diálogo// placeholder ele insere um texto antes do usuario colocar, mas depois some -->
+                        <input type="text" nome="username" id="username" placeholder="Insira seu nome">
+
+                    </div>
+
+                    <div>
+
+                        <label for="birthDate">Data de Nascimento</label>
+                        <input type="date" name="birthDate" id="birthDate">
+                    </div>
+
+                    <div>
+                        <label for="useremail">E-mail</label>
+                        <input type="e-mail" name="useremail" id="useremail">
+                    </div>
+
+                    <div>
+                        <label for="userPassword">Senha</label>
+                        <input type="password" name="userPassword" id="userPassword">
+
+                    </div>
+
+                    <div>
+                        <label for="UserPlano">Observações</label>
+                        <!-- textarea ele colocar uma caixa de texto grande -->
+                        <textarea name="userObservacao" id="userObservacao"></textarea>
+                                            
+                    </div>
+
+                    <button type="submit">Cadastrar</button>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Massa do Bolo</legend>
+
+                    <div>
+
+                        <input type="radio" name="cake" id="baunilha">
+                        <label for="baunilha">Baunilha </label>
+
+                        <input type="radio" name="cake" id="choco">
+                        <label for="choco">Chocolate</label>
+
+                        <input type="radio" name="cake" id="bill">
+                        <for="bill">Churros</label>
+
+                            <input type="radio" name="cake" id="churros">
+                            <label for="churros">Churros</label>
+
+                            <input type="radio" name="cake" id="brownie">
+                            <label for="brownie">Brownie</label>
+
+                            <input type="radio" name="cake" id="red">
+                            <label for="red">Red Velvet</label>
+                    </div>
+
+                </fieldset>
+
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Recheio do Bolo</legend>
+
+                    <div>
+                        <h1>Classicos</h1>
+                        <input type="radio" name="cake" id="baunilha">
+                        <label for="baunilha">Brigadeiro </label>
+
+                        <input type="radio" name="cake" id="choco">
+                        <label for="choco">Brigadeiro Branco</label>
+
+                        <input type="radio" name="cake" id="bill">
+                        <label for="bill">Brigadeiro de Coco</label>
+
+                        <input type="radio" name="cake" id="churros">
+                        <label for="churros">Doce de Leite</label>
+
+                    </div>
+                    <div>
+                        <h1>Especiais</h1>
+                        <input type="radio" name="cake" id="baunilha">
+                        <label for="baunilha">Nilho </label>
+
+                        <input type="radio" name="cake" id="choco">
+                        <label for="choco">Nutella</label>
+
+                        <input type="radio" name="cake" id="bill">
+                        <label for="bill">Nozes</label>
+
+                    </div>
+
+                    <div>
+                        <h1>Super Especiais</h1>
+                        <input type="radio" name="cake" id="baunilha">
+                        <label for="baunilha">Cream Cheese com Geleia de Morango </label>
+
+                    </div>
+                </fieldset>
+
+
+
+                <fieldset>
+                    <legend>Pagamento</legend>
+                    <div>
+
+                        <!-- <input type="radio" name="payment"id="credit" checked OBS: o checked ele deixar marcado a opção na pag> -->
+
+                        <input type="radio" name="payment" id="credit" checked>
+                        <!-- bolinha clicavel -->
+                        <label for="credit">Crédito</label>
+
+                        <input type="radio" name="payment" id="debit">
+                        <label for="debit">Débito</label>
+
+                        <input type="radio" name="payment" id="bill">
+                        <label for="bill">Boleto</label>
+                    </div>
+
+                </fieldset>
+
+
+
+                <fieldset>
+                    <legend>Entregas</legend>
+                    <div>
+
+                        <input type="radio" name="tax" id="credit">
+                        <label for="credit">Empresa X</label>
+
+                        <input type="radio" name="tax" id="jobz">
+                        <label for="debit">Empresa Y</label>
+
+                        <input type="radio" name="tax" id="bill">
+                        <for="bill">Empresa Z</label>
+
+                    </div>
+                </fieldset>
+
+
+                <div>
+
+                    <label for="scheduleDelivery">Agendar</label>
+                    <!-- Ao final do input colocar o min ou max  a data em modo americano -->
+                    <input type="date" name="scheduleDelivery" id="scheduleDelivery" min="2021-11-16">
+                </div>
+
+                <fieldset>
+                    <legend>Recomendados</legend>
+                    <div>
+                        <!-- Com o chekbos ele adiciona uma ou mais opções ao mesmo tempo -->
+                        <input type="checkbox" name="recommended" id="firstProduct">
+                        <label for="firstProduct">Carregador</label>
+
+                        <input type="checkbox" name="recommended" id="secondProduct">
+                        <label for="secondProduct">Fone</label>
+
+                    </div>
+                </fieldset>
+
+
+                <button type="send">Enviar</button>
+
+            </form>
+    </main>
+
+
+<footer>
+    <footer id="rodape">
+       
+      
+
+        
+        <a  href="" target="_blank">
+        <img src="img/facebookapplication_social_faceboo_2991.png" class="icones">
+        </a>
+         
+        <a  href="" target="_blank">
+        <img src="img/icone-twitter-ronde-grise.png" class="icones">
+        </a>
+    
+        <a  href="" target="_blank">
+        <img src="img/logo-instagram-png-sem-fundo4.png" class="icones">
+        </a>
+       
+
+</footer>
+</footer>
+
+</body>
+
+
+
+</html>
