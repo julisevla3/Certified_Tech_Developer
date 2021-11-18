@@ -1,51 +1,22 @@
-// Para este exercício usaremos todos os elementos das aulas anteriores e do atual. Os
-// objetivos são:
-// ● Reconheça padrões,elementos com características gerais que interagem, ou
-// não, com outros. Ser capaz de criar grupos e relacionamentos.
-// ● Abstraí-lo em conceitos computáveis e objetos os elementos do problema.
-// ● Decomponha-se em conceitos e objetos de menor complexidade, dividir o
-// problema em partes menores.
-// ● Modele o problema do slogan baixando para papel ou planilha a representação
-// em números, textos ou gráficos desses elementos.
-// ● Expresse o modelo em formato de código, algoritmos da solução.
 
-// Soa familiar? Isso porque isso não é nada além de pensamento computacional, algo
-// em que estamos trabalhando desde que começamos (e realmente algo que fazemos
-// na vida toda em situações cotidianas também!! )
-
-// Por isso, propomos o seguinte exercício integrativo para poder desenvolver um pouco
-// mais essa prática no nível de programação e código!
-
-// 2
-
-// começar...
-// Para essa oportunidade vamos retomar a atividade da aula anterior, você se lembra?
-// Estávamos trabalhando em arrays, acessando-os, modificando-os, adicionando e
-// removendo elementos, e algumas outras coisas. Mas como vimos naquela aula,
-// muitas tarefas foram repetidas mesmo dentro da mesma função, parecia que
-// tínhamos que executar o mesmo passo várias vezes, um número x de vezes. Vamos
-// ver se podemos dar algum dinamismo e eficiência ao nosso código...
 
 // 1. Começamos a partir de nossa variedade de filmes, que tínhamos o seguinte:
-
 // e nos pediram para passar todos os elementos para letras maiúsculas, o que
 // na época tínhamos feito de forma &quot;manual&quot;. Vamos movê-lo para uma maneira mais
 // automática usando loops.
 
 let peliculas = [ "star wars", "totoro",  "rocky", "pulp fiction", "la vida es bella"]
+let filmesAnimados = [ "wally", "princesa e o sapo",  "procurando nemo", "toy store", "la vida es bella"]
 
-for(let i=0; i< peliculas.length; i++){
-    function convertirAMayusculas(array){
-          array[0] = array[0].toUpperCase()
-          array[1] = array[1].toUpperCase()
-          array[2] = array[2].toUpperCase()
-          array[3] = array[3].toUpperCase()
-          array[4] = array[4].toUpperCase()
-          return array  
+function convertirAMayusculas(array) {
+    for(let i = 0; i < array.length; i++){
+    array[i] = array[i].toUpperCase()
+}
+
+    return array  
        
 }
 console.log(convertirAMayusculas(peliculas));
-}
 
 
 
@@ -54,40 +25,65 @@ console.log(convertirAMayusculas(peliculas));
 // 2. Agora precisamos modificar afunção de passagem de elemento() que nos permite
 // adicionar o conteúdo de nossa matriz de filme animado à matriz de filme
 // original.
-
-let filmesAnimados = [ "Wally", "filmeB"]
-for(let i=0; i< peliculas.length;  i++){
                                                  
 function pasajeDeElementos(array1, array2) {
-array1.push(array2.pop(). toUpperCase())
-array1.push(array2.pop(). toUpperCase())
-array1.push(array2.pop(). toUpperCase())
-array1.push(array2.pop(). toUpperCase())
-array1.push(array2.pop(). toUpperCase())
-return array
+    let qtd = array2.length;
+    for(let i = 0; i < array2.length; i++) {
+        array1.push(array2.pop(). toUpperCase())
+    }
+
+    return array1
 }
-console.log(pasajeDeElementos(peliculas));
-}
+pasajeDeElementos(peliculas,filmesAnimados);
+
 
 // 3. Para este ponto se você decidiu trabalhar em um arquivo diferente em lugar
 // para modificar o anterior, lembre-se que tivemos um infiltrado dentro de
 // nossos filmes de animação que tivemos que tirar e salvar em outra variável
 // antes de fazer a passagem de elementos de um array para outro!
 
+
+function pasajeDeElementos(array1, array2) {
+    let invalido = array2.pop()
+    let qtd = array2.length;
+
+    for(let i = 0; i < qtd.length; i++) {
+        array1.push(array2.pop(). toUpperCase());
+
+        return array1
+
+    }
+
+}
+console.log( pasajeDeElementos(peliculas,filmesAnimados));
+
+
+
+
 // 4. Finalmente, devemos modificar nossa função comparadora para os filmes
 // como temos feito até agora.
 
-// const asiaScores = [8, 10, 6, 9, 10, 6, 6, 8, 4];
-// const euroScores = [8, 10, 6, 8, 10, 6, 7, 9, 5];
-// function compararCalificaciones(asia, europa) {
-//   let comparacionesAsiaEuropa = []
+const asiaScores = [8, 10, 6, 9, 10, 6, 6, 8, 4];
+const euroScores = [8, 10, 6, 8, 10, 6, 7, 9, 5];
 
-// 4
 
-//   comparacionesAsiaEuropa[0] = asia[0] === europa[0]
-//   comparacionesAsiaEuropa[1] = asia[1] === europa[1]
-//   comparacionesAsiaEuropa[2] = asia[2] === europa[2]
-//   comparacionesAsiaEuropa[3] = asia[3] === europa[3]
+function compararCalificaciones(asia, europa) {
+      let comparacionesAsiaEuropa = [];
+
+      for (let i = 0; < asia.length; i++) {
+          comparacionesAsiaEuropa[i] = asia[i] === europa[i]
+
+        
+    }
+      return comparacionesAsiaEuropa;
+}
+    
+
+
+console.log(comparacionesAsiaEuropa ())
+
+
+
 
 // Bônus extra
 
