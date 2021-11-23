@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+
+main {
+    padding: 72px;
+}
+
+@keyframes float {
+    0%{        
+        opacity: 0;
+        transform: translate right(0, -50px);
+    }
+
+    50%{
+        opacity: 1;
+        transform: translate(0, 50px);
+    }
+
+    100%{
+        opacity: 0;
+        transform: translate(0, -50px);
+    }
+}
+
+.ghost {
+    font-size: 200px;
+    text-align: center;
+    display: block;
+    margin-bottom: 32px;
+    /* loop da animação  */
+    animation-iteration-count: infinite;
+    animation-name: float;
+    animation-duration:2s;
+
+}
+
+
+.main-button {
+    color: white;
+    border: 0;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: rgb(0, 217, 255);
+    /* transição de transformação */
+    transition: .5s ease-in-out;
+
+        /*tempo transição de transformação */
+    /* transition-duration:2s; */
+ 
+    /* transition-property: background, padding; */
+    /* tempo de crescente de velocidade */
+    /* transition-timing-function: ease-in; */
+        /* tempo de decrescente de velocidade */
+
+    /* transition-timing-function: ease-out; */
+    transform-origin:right bottom 60px
+
+}
+
+
+/* transform-origin */
+
+.main-button:hover {
+    color: black;
+    background-color:rgb(236, 253, 2);
+    /* Aumenta o tamanho do botão, e o nº é qnt em x */
+    /* skew(30deg) inclina pra esquerda, skew(-30deg) inclina pra direita */
+   
+    /* transform: scale(1.5) rotate(2000000deg); */
+
+        /* primeiro parametro horizontal segundo vertical */
+    /* transform: translate(20px, 20px); */
+     transform: rotate(120deg);
+
+
+}
+p {
+    color: white;
+    font-size: 22px;
+    margin-top: 24px;
+}
