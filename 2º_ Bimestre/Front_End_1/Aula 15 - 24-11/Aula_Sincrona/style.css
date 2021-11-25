@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+
+    display: grid;
+    /* coloca a quantidade de coluna 200px */
+    /* e 1fr ou auto ou 100% ele ocupa todo o espaço após 200px */
+    grid-template-columns:200px 1fr;
+    grid-template-areas:
+    /* primeira linha e e coluna, primeira linha segunda coluna */
+    'main-header main-header'
+    'main-aside main-content'
+    'main-footer main-footer'
+    ;
+
+
+}
+
+header {
+    background-color: brown;
+    grid-area: main-header;
+    height: 50px;
+}
+.main-header ul{
+    display: flex;
+    text-decoration: none;
+
+}
+
+aside {
+    background-color:grey;
+    grid-area: main-aside;
+
+}
+main {
+    background-color: blueviolet;
+    height: 500px;
+    grid-area: main-content;
+
+}
+footer {
+    background-color: green;
+    grid-area: main-footer;
+    height: 30px;
+
+}
