@@ -1,82 +1,88 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
 
-h1, h2, h3, p{ 
-    color: seashell;
-}
-
-header {
-    /* padding: 24px 0; */
-    background-color: grey;
-    grid-area: main-header;
-    /* text-align: center; */
-    display: flex;
-    justify-content: space-between;   
-}
-
-header ul li{
-    color: white;
-    font-size: 24px;
-    margin-left: 28px;
-    list-style: none;
-    
-    
-    
-}
-
-
-header img{
-  /* justify-content: cover; */
-  height: 30px;
-  width: 50px;
-    
-    
-}
-aside {
-    display: flex;
-    flex-direction: column;
-    /* gap: 10px; */
-    background-color: black;
-}
-
-aside .main-video {
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-
-   
-}
-
-body {
+  body {
+ 
     display: grid;
     grid-template-columns: 1fr 400px;
     grid-template-areas:
     'main-header main-header'
-    'main-video main-content  '
-        ;
+    'main-content main-aside'
+    'main-footer main-footer'
+          
+    ;
+ 
+  }
 
-}
+
+ header {
+    background-color: grey;
+    grid-area:main-header;
+    padding:18px;
+    color: wheat;
+  }
 
 main {
-    display: grid;
-    background-color: royalblue;
-        display: flex;
- 
+  background-color:rgba(0, 0, 0, 0.904);
+  grid-area:main-content;
+  text-align: center;
+
 
 }
 
-section img {
-        width: 400px;
-        height: 200px;
-        object-fit: cover;
-    }
-    section {
-        display: flex;
-        gap: 10px;
+main iframe {
+  margin: 48px  48px;
+
+}
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    grid-area:main-aside;
+    gap: 12px;
+    
+  }
+
+
+  section {
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.904);
+
+  }
+
+   section .video {
+    
+    object-fit: cover;
+    object-position: bottom;
+    margin-top: 48px;
+
+  }
+
+
+  section .content-right{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+    margin-top: 48px;
+
+  }
+
+  section .content-right div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
     }
 
-   
+
+  footer {
+    background-color: grey;
+    grid-area:main-footer;
+    padding: 24px;
+  }
+
+  
+  
