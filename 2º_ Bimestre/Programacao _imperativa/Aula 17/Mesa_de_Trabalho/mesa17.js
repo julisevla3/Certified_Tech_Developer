@@ -43,7 +43,7 @@ let numeros = [1,2,4,5,6];
 let numerosFormatado = numeros.reduce(function (acumulador,item) {
     return  acumulador + " - " + item  
 })
-// console.log(numerosFormatado)
+console.log(numerosFormatado)
 
 
 
