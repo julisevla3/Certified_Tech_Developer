@@ -12,6 +12,15 @@
 h1,h2, p{
     color:white;
 }
+
+body {
+    grid-template-columns:;
+    grid-area:
+    ''
+    ''
+    
+    ;
+}
 .background {
     background-image:url(img/3.jpg);
     background-repeat: no repeat;

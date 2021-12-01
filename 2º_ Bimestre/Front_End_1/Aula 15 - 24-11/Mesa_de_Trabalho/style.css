@@ -8,7 +8,7 @@ body {
 
 
     display: grid;
-    grid-template-columns: 1fr 400px;
+    grid-template-columns:  200px 1fr;
     grid-template-areas:
     'main-header main-header'
     'main-aside main-content'
