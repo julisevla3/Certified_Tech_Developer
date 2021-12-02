@@ -4,15 +4,17 @@
     box-sizing: border-box;
   }
 
+  header h1 {
+    color: white;
+  }
   body {
  
     display: grid;
-    grid-template-columns: 1fr 400px;
+    grid-template-columns: 1fr 500px;
     grid-template-areas:
     'main-header main-header'
     'main-content main-aside'
     'main-footer main-footer'
-          
     ;
  
   }
@@ -21,30 +23,111 @@
  header {
     background-color: grey;
     grid-area:main-header;
-    padding:18px;
-    color: wheat;
+    padding:20px 0;
   }
 
 main {
   background-color:rgba(0, 0, 0, 0.904);
   grid-area:main-content;
-  text-align: center;
+  padding:40px 20px 0;
 
+}
+
+.main-video{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-video iframe{
+  width: 100%;
+}
+
+.main-video h1{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
 
 }
 
-main iframe {
-  margin: 48px  48px;
+.main-video h2{
+  font-size: 16px;
+  color: white;
 
 }
+
+aside{
+  grid-area: main-aside;
+  background: rgba(0, 0, 0, 0.904);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+aside .video{
+  display: flex;
+  gap: 10px;
+}
+
+aside .video-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.video-right h1{
+  font-size:24px;
+  color: white;
+}
+
+.video-right h2,
+.video-right h3,
+.video-right p{
+  font-size:16px;
+  color: white;
+}
+
+.video-right h2{
+  font-weight: bold;
+}
+/* 
+aside .video iframe{
+  max-width: 200px;
+} */
+/* 
+ iframe .video { 
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+ h1{ 
+  color: aliceblue;
+  font-size: 24px;
+  margin-bottom: 20px;
+ 
+}
+
+  
 
   aside {
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     grid-area:main-aside;
     gap: 12px;
+    padding: 40px 0;
     
   }
+  aside .content-right{
+    display: flex;
+    gap: 10px;
+    
+  }
+
 
 
   section {
@@ -62,20 +145,23 @@ main iframe {
   }
 
 
-  section .content-right{
-  display: flex;
+  .content-right h1{
+    font-size: 24px;
+
+  /* display: flex;
   flex-direction: column;
   justify-content:space-between;
-    margin-top: 48px;
+    margin-top: 48px; */
 
-  }
+  /* }
 
-  section .content-right div{
-    display: flex;
+ .content-right {
+   color: red;
+    /* display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 10px; */
   
-    }
+    } */
 
 
   footer {
@@ -84,5 +170,5 @@ main iframe {
     padding: 24px;
   }
 
-  
+   
   
