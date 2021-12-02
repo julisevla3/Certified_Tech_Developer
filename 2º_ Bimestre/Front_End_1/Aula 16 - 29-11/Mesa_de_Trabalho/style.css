@@ -7,6 +7,16 @@
   header h1 {
     color: white;
   }
+
+  #search {
+    border: none; 
+    padding: 0px; 
+    margin: 0px; 
+    height: 40px;
+     width: 600px; 
+     outline: none;
+     background-color:rgba(0, 0, 0, 0.904) ;
+  }
   body {
  
     display: grid;
@@ -21,9 +31,11 @@
 
 
  header {
-    background-color: grey;
+    background-color: rgb(49, 49, 49);
     grid-area:main-header;
     padding:20px 0;
+    display:flex;
+    justify-content: space-between;
   }
 
 main {
