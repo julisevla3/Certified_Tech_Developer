@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* main é um elemento em bloco */
+main {
+    /* width:500px ; */
+    /* background-color: royalblue; */
+}
+
+/* article elemento em linha */
+section {
+    /* width:50%;
+    height: 400px; */
+    /* Ele replica o mesmo tamanho main */
+    height: 100vh;
+    background-color: red;
+}
+
+.teste{
+    background-color: slateblue;
+}
