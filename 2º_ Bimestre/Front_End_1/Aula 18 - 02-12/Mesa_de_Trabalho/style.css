@@ -22,6 +22,7 @@ header {
 
 main {
     width: 100%;
+  
 }
 
 
@@ -55,6 +56,7 @@ ul {
 .classimg {
     width: 100%;
     height: 100vh;
+    margin-bottom: 48px;
 
 }
 
@@ -62,6 +64,7 @@ section{
     display: flex;
     height: 100vh;
     background-color: rgb(253, 190, 183);
+    
   
 
 }
@@ -72,6 +75,7 @@ main #main-content h1{
 }
 
 #video{
+
 
 }
 
