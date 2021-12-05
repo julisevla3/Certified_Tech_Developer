@@ -16,6 +16,7 @@
      width: 600px; 
      outline: none;
      background-color:rgba(0, 0, 0, 0.904) ;
+     color: white;
   }
   body {
  
@@ -35,7 +36,8 @@
     grid-area:main-header;
     padding:20px 0;
     display:flex;
-    justify-content: space-between;
+    /* justify-content:space-around; */
+    gap: 150px;
   }
 
 main {
