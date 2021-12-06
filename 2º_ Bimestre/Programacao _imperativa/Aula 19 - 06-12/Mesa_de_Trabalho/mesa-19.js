@@ -1,10 +1,9 @@
 // Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas.
 //  Faça um programa que calcule e escreva:
-	
-// a maior e a menor altura do grupo;
-// a média de altura das mulheres;
-// o número de homens.
 
+
+
+// A maior e a menor altura do grupo;
 function maiorAltura(pessoas) {
     pessoas.sort(function(a, b) {
         return b.altura - a.altura;
@@ -21,6 +20,7 @@ function menorAltura(pessoas) {
     return pessoas[0].altura;
 }
 
+// A média de altura das mulheres;
 function mediaMulheres(pessoas) {
     let quantidadeMulheres = 0;
     let somaAltura = 0;
@@ -31,10 +31,10 @@ function mediaMulheres(pessoas) {
         }
     }
     return somaAltura / quantidadeMulheres;
-
-    
+   
 }
 
+// O número de homens.
 function quantidadeHomens(pessoas) {
     let quantidadeHomens = 0;
     let somaAltura = 0;
@@ -45,10 +45,8 @@ function quantidadeHomens(pessoas) {
         }
     }
     return quantidadeHomens;
-
     
 }
-
 
 const arquivos = [
     {
@@ -104,8 +102,7 @@ const arquivos = [
         "nome": "Alonso Wannan",
         "altura": 1.92
     },
-    {
-        
+    {        
         "sexo": "F",
         "nome": "Bendite Huggett",
         "altura": 1.80
