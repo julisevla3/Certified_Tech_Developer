@@ -31,7 +31,18 @@
 
 
 
-for i in range(1,10):
-    print(i)
+# for i in range(1,10):
+#     print(i)
+
+from datetime import time
+from  datetime import datetime
+
+def ManipulaDataHora():
+    hoje = date.today()
+    print("Hoje é: ", hoje)
+
+
+
+    ManipulaDataHora()
 
 
