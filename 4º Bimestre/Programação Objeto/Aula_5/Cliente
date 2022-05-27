@@ -1,0 +1,38 @@
+public class Cliente{
+    private Interger numeroCliente
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+    public void getNome(double valor){
+    return  this.nome 
+    }
+    private public void setDivida(double valor){
+        this.divida = valor;
+    }
+
+
+    public double getDivida(){
+    return this.divida * 1.1;
+    }
+
+    public void aumentarDivida(double valor){
+        this.divida += valor;
+    }
+
+    public void pagarDivida(double valor){
+        if (this.divida <=0){
+            System.out.println("Sua divida já foi paga!");
+            return;
+        }
+            if(this.divida <valor ){
+                System.out.println("Valor superior, a sua divida é de " + valor)
+            }
+
+                    setDivida (this.divida - valor);
+                }
+
+}
+
+
+

@@ -1,0 +1,14 @@
+public class Main{
+
+    public static void main (String[]){
+    Cliente cliente = new Cliente(num:1, cliente:"Pedro");
+    cliente.aumentarDivida(valor:10.52);
+    cliente.pagarDivida(valor:10.52);
+    cliente.pagarDivida(valor:10.52);
+    cliente.setDivida(5.0);
+
+    System.out.println("Sua divida é de: " + cliente.getDivida());
+    }
+}
+
+
