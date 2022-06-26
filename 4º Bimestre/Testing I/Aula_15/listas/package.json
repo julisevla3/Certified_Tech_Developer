@@ -1,0 +1,14 @@
+{
+  "name": "atividade",
+  "version": "1.0.0",
+  "description": "atividade com teste unitario",
+  "main": "app.js",
+  "scripts": {
+    "test": " jest --watchAll --collect-coverage "
+  },
+  "author": "Juline Alves",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
