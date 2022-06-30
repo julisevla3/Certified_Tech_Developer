@@ -1,0 +1,350 @@
+{
+	"id": "94f48e3f-a294-4839-a5dc-5e1c0e1a2743",
+	"name": "Public REST APIs",
+	"timestamp": "2022-06-30T02:06:39.747Z",
+	"collection_id": "20399288-16e23b57-11ef-45e9-bc5d-6025e9f84aa7",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 22,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0de57a22-23b7-4226-9aeb-b646c7198f85",
+			"name": "Films",
+			"url": "https://ghibliapi.herokuapp.com/films",
+			"time": 153,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Codigo do status é 200": true,
+				"O tempo de resposta é menor 600": true,
+				"O corpo da requisição inclui o texto 'Castle in the Sky'": true
+			},
+			"testPassFailCounts": {
+				"Codigo do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor 600": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O corpo da requisição inclui o texto 'Castle in the Sky'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				153
+			],
+			"allTests": [
+				{
+					"Codigo do status é 200": true,
+					"O tempo de resposta é menor 600": true,
+					"O corpo da requisição inclui o texto 'Castle in the Sky'": true
+				}
+			]
+		},
+		{
+			"id": "c33e1843-dc6b-4501-8640-5cd5671c423c",
+			"name": "Makes of Cars",
+			"url": "https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?format=json",
+			"time": 636,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Codigo do status é 200": true,
+				"O tempo de resposta é menor 1884": true,
+				"O corpo da requisição inclui o texto 'null'": true
+			},
+			"testPassFailCounts": {
+				"Codigo do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor 1884": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O corpo da requisição inclui o texto 'null'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				636
+			],
+			"allTests": [
+				{
+					"Codigo do status é 200": true,
+					"O tempo de resposta é menor 1884": true,
+					"O corpo da requisição inclui o texto 'null'": true
+				}
+			]
+		},
+		{
+			"id": "c1d8bdb1-1bb4-4b32-9b16-119349861e93",
+			"name": "XKCD",
+			"url": "https://xkcd.com/info.0.json",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Codigo do status é 200": true,
+				"O tempo de resposta é menor 600": true,
+				"O corpo da requisição inclui o texto '2022'": true
+			},
+			"testPassFailCounts": {
+				"Codigo do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor 600": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O corpo da requisição inclui o texto '2022'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"Codigo do status é 200": true,
+					"O tempo de resposta é menor 600": true,
+					"O corpo da requisição inclui o texto '2022'": true
+				}
+			]
+		},
+		{
+			"id": "50511581-d6d6-46ce-891b-b5f54112a3ac",
+			"name": "Characters",
+			"url": "https://www.anapioficeandfire.com/api/characters",
+			"time": 252,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Codigo do status é 200": true,
+				"O tempo de resposta é menor 500": true,
+				"O corpo da requisição inclui o texto 'Female'": true
+			},
+			"testPassFailCounts": {
+				"Codigo do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor 500": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O corpo da requisição inclui o texto 'Female'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				252
+			],
+			"allTests": [
+				{
+					"Codigo do status é 200": true,
+					"O tempo de resposta é menor 500": true,
+					"O corpo da requisição inclui o texto 'Female'": true
+				}
+			]
+		},
+		{
+			"id": "05f1ccfc-da24-483c-9716-7b15113fbe40",
+			"name": "Logo",
+			"url": "https://logo.clearbit.com/postman.com",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Codigo do status é 200": true,
+				"O tempo de resposta é menor 500": true
+			},
+			"testPassFailCounts": {
+				"Codigo do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"Codigo do status é 200": true,
+					"O tempo de resposta é menor 500": true
+				}
+			]
+		},
+		{
+			"id": "ba8c436e-c78f-4f4b-9cb9-39c934ae0232",
+			"name": "Pokemon Search",
+			"url": "https://pokeapi.co/api/v2/pokemon/ditto/",
+			"time": 156,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Codigo do status é 200": true,
+				"O tempo de resposta é menor 500": true,
+				"O corpo da requisição inclui o texto 'limber'": true
+			},
+			"testPassFailCounts": {
+				"Codigo do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor 500": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O corpo da requisição inclui o texto 'limber'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				156
+			],
+			"allTests": [
+				{
+					"Codigo do status é 200": true,
+					"O tempo de resposta é menor 500": true,
+					"O corpo da requisição inclui o texto 'limber'": true
+				}
+			]
+		},
+		{
+			"id": "0ba1817f-2a11-49e3-9cf4-84e4d1f9e453",
+			"name": "Latest SpaceX Launch",
+			"url": "https://api.spacexdata.com/v3/launches/latest",
+			"time": 144,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Codigo do status é 404": true,
+				"O tempo de resposta é menor 500": true
+			},
+			"testPassFailCounts": {
+				"Codigo do status é 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				144
+			],
+			"allTests": [
+				{
+					"Codigo do status é 404": true,
+					"O tempo de resposta é menor 500": true
+				}
+			]
+		},
+		{
+			"id": "8d738f63-8777-4e42-a047-9b7757ae6879",
+			"name": "ALL CAPS AS A SERVICE",
+			"url": "http://api.shoutcloud.io/V1/SHOUT",
+			"time": 299,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Codigo do status é 200": true,
+				"O tempo de resposta é menor 500": true,
+				"O corpo da requisição inclui o texto 'hello world'": true
+			},
+			"testPassFailCounts": {
+				"Codigo do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor 500": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O corpo da requisição inclui o texto 'hello world'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				299
+			],
+			"allTests": [
+				{
+					"Codigo do status é 200": true,
+					"O tempo de resposta é menor 500": true,
+					"O corpo da requisição inclui o texto 'hello world'": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1796,
+	"collection": {
+		"requests": [
+			{
+				"id": "0de57a22-23b7-4226-9aeb-b646c7198f85",
+				"method": "GET"
+			},
+			{
+				"id": "c33e1843-dc6b-4501-8640-5cd5671c423c",
+				"method": "GET"
+			},
+			{
+				"id": "c1d8bdb1-1bb4-4b32-9b16-119349861e93",
+				"method": "GET"
+			},
+			{
+				"id": "50511581-d6d6-46ce-891b-b5f54112a3ac",
+				"method": "GET"
+			},
+			{
+				"id": "05f1ccfc-da24-483c-9716-7b15113fbe40",
+				"method": "GET"
+			},
+			{
+				"id": "ba8c436e-c78f-4f4b-9cb9-39c934ae0232",
+				"method": "GET"
+			},
+			{
+				"id": "0ba1817f-2a11-49e3-9cf4-84e4d1f9e453",
+				"method": "GET"
+			},
+			{
+				"id": "8d738f63-8777-4e42-a047-9b7757ae6879",
+				"method": "POST"
+			}
+		]
+	}
+}
