@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220706 23:01:15.998" rpa="false" schemaversion="3">
+<suite id="s1" name="Juliane" source="C:\Users\julis\Documents\DH\Certified_Tech_Developer\4º Bimestre\Testing I\Aula23_05-07\juliane.robot">
+<test id="s1-t1" name="Processo de compra na loja Souce Demo" line="10">
+<kw name="Acessar o site" library="juliane">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220706 23:01:16.176" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com'.</msg>
+<status status="PASS" starttime="20220706 23:01:16.176" endtime="20220706 23:01:19.058"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220706 23:01:19.058" endtime="20220706 23:01:19.174"/>
+</kw>
+<status status="PASS" starttime="20220706 23:01:16.175" endtime="20220706 23:01:19.174"/>
+</kw>
+<kw name="Fazer login" library="juliane">
+<kw name="Wait and Input Text" library="juliane">
+<arg>${CAMPO_USUARIO}</arg>
+<arg>${USUARIO}</arg>
+<msg timestamp="20220706 23:01:19.177" level="FAIL">Keyword 'juliane.Wait and Input Text' expected 0 arguments, got 2.</msg>
+<status status="FAIL" starttime="20220706 23:01:19.177" endtime="20220706 23:01:19.178"/>
+</kw>
+<kw name="Wait and Input Text" library="juliane">
+<arg>${CAMPO_SENHA}</arg>
+<arg>${SENHA}</arg>
+<status status="NOT RUN" starttime="20220706 23:01:19.178" endtime="20220706 23:01:19.178"/>
+</kw>
+<kw name="Wait and Click" library="juliane">
+<arg>${BOTAO_LOGIN}</arg>
+<status status="NOT RUN" starttime="20220706 23:01:19.178" endtime="20220706 23:01:19.178"/>
+</kw>
+<status status="FAIL" starttime="20220706 23:01:19.174" endtime="20220706 23:01:19.178"/>
+</kw>
+<kw name="Adiconar um produto ao carrinho" library="juliane">
+<status status="NOT RUN" starttime="20220706 23:01:19.178" endtime="20220706 23:01:19.178"/>
+</kw>
+<kw name="Acessar ao carrinho" library="juliane">
+<status status="NOT RUN" starttime="20220706 23:01:19.178" endtime="20220706 23:01:19.178"/>
+</kw>
+<kw name="Clicar em 'Checkout'" library="juliane">
+<status status="NOT RUN" starttime="20220706 23:01:19.178" endtime="20220706 23:01:19.178"/>
+</kw>
+<kw name="Preencher informações do usuário" library="juliane">
+<status status="NOT RUN" starttime="20220706 23:01:19.178" endtime="20220706 23:01:19.178"/>
+</kw>
+<kw name="Clicar no botao 'finish'" library="juliane">
+<status status="NOT RUN" starttime="20220706 23:01:19.179" endtime="20220706 23:01:19.179"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220706 23:01:19.180" endtime="20220706 23:01:21.409"/>
+</kw>
+<status status="FAIL" starttime="20220706 23:01:16.175" endtime="20220706 23:01:21.410">Keyword 'juliane.Wait and Input Text' expected 0 arguments, got 2.</status>
+</test>
+<test id="s1-t2" name="Processo de compra na loja Souyce Demo com usuário" line="19">
+<status status="FAIL" starttime="20220706 23:01:21.411" endtime="20220706 23:01:21.412">Test contains no keywords.</status>
+</test>
+<test id="s1-t3" name=" Acessar o site" line="20">
+<status status="FAIL" starttime="20220706 23:01:21.413" endtime="20220706 23:01:21.413">Test contains no keywords.</status>
+</test>
+<test id="s1-t4" name=" Fazer login com usuário incorreto" line="21">
+<status status="FAIL" starttime="20220706 23:01:21.415" endtime="20220706 23:01:21.416">Test contains no keywords.</status>
+</test>
+<status status="FAIL" starttime="20220706 23:01:15.998" endtime="20220706 23:01:21.418"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="4" skip="0" id="s1" name="Juliane">Juliane</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220706 23:01:16.170" level="ERROR">Error in file 'C:\Users\julis\Documents\DH\Certified_Tech_Developer\4º Bimestre\Testing I\Aula23_05-07\juliane.resource' on line 20: Setting variable '${MENSAGEM_AGRADECIMENTO} THANK YOU FOR YOUR ORDER' failed: Invalid variable name '${MENSAGEM_AGRADECIMENTO} THANK YOU FOR YOUR ORDER'.</msg>
+<msg timestamp="20220706 23:01:16.170" level="ERROR">Error in file 'C:\Users\julis\Documents\DH\Certified_Tech_Developer\4º Bimestre\Testing I\Aula23_05-07\juliane.resource' on line 77: Creating keyword ' [Arguments]' failed: Keyword with same name defined multiple times.</msg>
+</errors>
+</robot>

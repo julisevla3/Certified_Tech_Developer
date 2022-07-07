@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220706 23:18:03.964" rpa="false" schemaversion="3">
+<suite id="s1" name="Teste" source="C:\Users\julis\Documents\DH\Certified_Tech_Developer\4º Bimestre\Testing I\Aula24_06-07\teste.robot">
+<test id="s1-t1" name="Acessar o site" line="10">
+<kw name="Acessar o site" library="teste">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220706 23:18:04.166" level="INFO">Opening browser 'Chrome' to base url 'https://bugbank.netlify.app'.</msg>
+<status status="PASS" starttime="20220706 23:18:04.165" endtime="20220706 23:18:06.184"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220706 23:18:06.184" endtime="20220706 23:18:06.304"/>
+</kw>
+<status status="PASS" starttime="20220706 23:18:04.165" endtime="20220706 23:18:06.304"/>
+</kw>
+<kw name="Fazer login" library="teste">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO_USUARIO}</arg>
+<arg>${USUARIO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220706 23:18:06.305" level="INFO">Typing text 'julisevla@yahoo.com.br' into text field 'css=#__next &gt; div &gt; div.pages__FormBackground-sc-1ee1f2s-2.jNpkvU &gt; div &gt; div.card__login &gt; form &gt; div.style__ContainerFieldInput-sc-s3e9ea-0.kOeYBn.input__child &gt; input'.</msg>
+<msg timestamp="20220706 23:18:06.526" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220706 23:18:06.527" level="FAIL">Element with locator 'css=#__next &gt; div &gt; div.pages__FormBackground-sc-1ee1f2s-2.jNpkvU &gt; div &gt; div.card__login &gt; form &gt; div.style__ContainerFieldInput-sc-s3e9ea-0.kOeYBn.input__child &gt; input' not found.</msg>
+<status status="FAIL" starttime="20220706 23:18:06.305" endtime="20220706 23:18:06.541"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO_SENHA}</arg>
+<arg>${SENHA}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220706 23:18:06.541" endtime="20220706 23:18:06.541"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BOTAO_LOGIN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220706 23:18:06.541" endtime="20220706 23:18:06.541"/>
+</kw>
+<status status="FAIL" starttime="20220706 23:18:06.304" endtime="20220706 23:18:06.542"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220706 23:18:06.542" endtime="20220706 23:18:08.737"/>
+</kw>
+<status status="FAIL" starttime="20220706 23:18:04.164" endtime="20220706 23:18:08.738">Element with locator 'css=#__next &gt; div &gt; div.pages__FormBackground-sc-1ee1f2s-2.jNpkvU &gt; div &gt; div.card__login &gt; form &gt; div.style__ContainerFieldInput-sc-s3e9ea-0.kOeYBn.input__child &gt; input' not found.</status>
+</test>
+<status status="FAIL" starttime="20220706 23:18:03.966" endtime="20220706 23:18:08.740"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Teste">Teste</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
