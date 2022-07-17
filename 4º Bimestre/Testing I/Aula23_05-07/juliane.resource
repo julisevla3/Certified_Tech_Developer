@@ -58,7 +58,7 @@ Preencher informações do usuário
   Wait and Input Text              ${CAMPO_NOME}           ${NOME}
   Wait and Input Text              ${CAMPO_SOBRENOME}      ${SOBRENOME}
   Wait and Input Text              ${CAMPO_CEP}            ${CEP}
-  Wait and Click            ${BOTAO_CONTINUE}
+  Wait and Click                   ${BOTAO_CONTINUE}
 
 
 Clicar no botao 'finish'
