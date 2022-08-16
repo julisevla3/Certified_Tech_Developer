@@ -1,6 +1,4 @@
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.Statement;
+import java.sql.*;
 
 public class Main {
     //Verificando se existe conta, caso contrario sera criado;
@@ -40,8 +38,7 @@ public class Main {
             preparedStatementUpdate.execute();
 
 
-
-             resultSet
+            ShowDentista(connection);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -49,6 +46,38 @@ public class Main {
 
         } finally {
             connection.close();
+
+        }
+    }
+
+    private static void ShowDentista(Connection connection) throws  SQLException {
+        String sqlQuery = "SELECT * FROM Dentista";
+        Statement statement = connection.createStatement();
+        ResultSet resultSet = statement.executeQuery(sqlQuery);
+
+        while(resultSet.next()){
+            System.out.println(resultSet.getString(1)+" - "+
+                    resultSet.getString(2)+" - "+resultSet.getString(3)+" - "+resultSet.getInt(4));
         }
     }
 }
+
+
+
+//if(connection == null){
+  //      return;
+     //   }
+
+
+//nome:Ewerton Lopes Pereira
+//
+//Antonio Henrique S Braz
+//
+//Victor Gomes De Souza Leão
+//
+//João Sousa
+//
+//João Victor De Almeida Souza
+//
+//Juliane Alves De Lima
+
