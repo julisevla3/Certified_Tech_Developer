@@ -14,13 +14,12 @@ public class MedicamentosDaoH2  implements IDao<Medicamento>{
 
     @Override
     public Medicamento salvar(Medicamento medicamento){
-        log.debug("Registrando um novo medicamento: "+medicamento.toString());
+        log.info("Registrando um novo medicamento: "+medicamento.toString());
         Connection connection = configuracaoJDBC.connectarComBancoDeDados();
         Statement statement = null;
-        String query = String.format("INSERT INTO medicamentos(nome, laboratorio, quantidade,preco
-                values('%s','%s','%s','%s')",
+        String query = String.format("INSERT INTO medicamentos(nome, laboratorio, quantidade,preco) values('%s','%s','%s','%s')",
 
-               medicamento.getNome(), medicamento.getLaboratorio(),medicamento.getQuantidade(),medicamento.getPreco();
+               medicamento.getNome(), medicamento.getLaboratorio(),medicamento.getQuantidade(),medicamento.getPreco());
         try{
             statement = connection.createStatement();
             statement.executeUpdate(query,Statement.RETURN_GENERATED_KEYS);
@@ -39,7 +38,29 @@ public class MedicamentosDaoH2  implements IDao<Medicamento>{
         log.info("Buscando medicamento com id "+id);
         Connection connection = configuracaoJDBC.connectarComBancoDeDados();
         Statement statement = null;
-        String query = String.format("SELECT id, nome, laboratorio, quantidade,preco FROM medicamentos where id + "
+        String query = String.format("SELECT id, nome, laboratorio, quantidade,preco FROM medicamentos where id = '%s",id);
+
+        Medicamento medicamento = null;
+
+        try{
+            statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+
+            while (resultSet.next()){
+                medicamento = new Medicamento(resultSet.getInt("id"),
+                        resultSet.getString("nome"),resultSet.getString("laboratorio"),
+                        resultSet.getInt("quantidade"),resultSet.getDouble("preco"));
+            }
+            statement.close();
+
+
+        }catch(SQLException throwables){
+            throwables.printStackTrace();
+        }
+        return medicamento;
+
+
     }
 
 }
+

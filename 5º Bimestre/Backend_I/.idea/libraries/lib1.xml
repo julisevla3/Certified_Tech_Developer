@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Primeiro_Modulo/Aula_5/Aula5/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Primeiro_Modulo/Aula_5/Aula5/lib/guice-4.1.0-no_aop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Primeiro_Modulo/Aula_5/Aula5/lib/guava-19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Primeiro_Modulo/Aula_5/Aula5/lib/testng-7.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Primeiro_Modulo/Aula_5/Aula5/lib/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Primeiro_Modulo/Aula_5/Aula5/lib/jcommander-1.72.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Primeiro_Modulo/Aula_5/Aula5/lib/snakeyaml-1.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

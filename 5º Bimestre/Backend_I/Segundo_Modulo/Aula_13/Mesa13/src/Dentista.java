@@ -27,7 +27,7 @@ public class Dentista {
         this.sobrenome = sobrenome;
     }
 
-    public String getMatricula(String s) {
+    public String getMatricula() {
         return matricula;
     }
 

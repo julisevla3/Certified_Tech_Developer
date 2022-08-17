@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Segundo_Modulo/Aula_10/Aula10/Aula10.iml" filepath="$PROJECT_DIR$/Segundo_Modulo/Aula_10/Aula10/Aula10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Segundo_Modulo/Aula_13/Aula13/Aula13.iml" filepath="$PROJECT_DIR$/Segundo_Modulo/Aula_13/Aula13/Aula13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Modulo/Aula_7/Aula7/Aula7.iml" filepath="$PROJECT_DIR$/Primeiro_Modulo/Aula_7/Aula7/Aula7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Modulo/Aula_9_/Aula9_FacadePattern/Aula9_FacadePattern.iml" filepath="$PROJECT_DIR$/Primeiro_Modulo/Aula_9_/Aula9_FacadePattern/Aula9_FacadePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Modulo/Aula_1/Aula_1.iml" filepath="$PROJECT_DIR$/Primeiro_Modulo/Aula_1/Aula_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Segundo_Modulo/Aula_11/Aula_11.iml" filepath="$PROJECT_DIR$/Segundo_Modulo/Aula_11/Aula_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Segundo_Modulo/Aula_12/Aula_12.iml" filepath="$PROJECT_DIR$/Segundo_Modulo/Aula_12/Aula_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Segundo_Modulo/Aula_14/Aula_14.iml" filepath="$PROJECT_DIR$/Segundo_Modulo/Aula_14/Aula_14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Modulo/Aula_2/Aula_2.iml" filepath="$PROJECT_DIR$/Primeiro_Modulo/Aula_2/Aula_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Modulo/Aula_3/Aula_3.iml" filepath="$PROJECT_DIR$/Primeiro_Modulo/Aula_3/Aula_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Modulo/Aula_5/Aula_5.iml" filepath="$PROJECT_DIR$/Primeiro_Modulo/Aula_5/Aula_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Modulo/Aula_6/Aula_6.iml" filepath="$PROJECT_DIR$/Primeiro_Modulo/Aula_6/Aula_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Modulo/Aula_8_/Aula_8_.iml" filepath="$PROJECT_DIR$/Primeiro_Modulo/Aula_8_/Aula_8_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Backend_I.iml" filepath="$PROJECT_DIR$/.idea/Backend_I.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Segundo_Modulo/Aula_10/Mesa10/Mesa10.iml" filepath="$PROJECT_DIR$/Segundo_Modulo/Aula_10/Mesa10/Mesa10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Segundo_Modulo/Aula_13/Mesa13/Mesa13.iml" filepath="$PROJECT_DIR$/Segundo_Modulo/Aula_13/Mesa13/Mesa13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Modulo/Aula_7/Mesa7_Flyweight/Mesa7_Flyweight.iml" filepath="$PROJECT_DIR$/Primeiro_Modulo/Aula_7/Mesa7_Flyweight/Mesa7_Flyweight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Modulo/Aula_8_/Mesa8/Mesa8.iml" filepath="$PROJECT_DIR$/Primeiro_Modulo/Aula_8_/Mesa8/Mesa8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Modulo/Aula_9_/Mesa9_Flyweight/Mesa9_Flyweight.iml" filepath="$PROJECT_DIR$/Primeiro_Modulo/Aula_9_/Mesa9_Flyweight/Mesa9_Flyweight.iml" />
+    </modules>
+  </component>
+</project>
