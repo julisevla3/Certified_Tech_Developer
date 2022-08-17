@@ -5,47 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a09e7fa1-9bfd-47d1-9be6-9b35105e6e66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../.idea/Backend_I.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/lib1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/lib2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Primeiro_Modulo/Aula_8_/Aula_8_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Primeiro_Modulo/Aula_8_/Mesa8/Mesa8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Primeiro_Modulo/Aula_9_/Aula9_FacadePattern/Aula9_FacadePattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mesa13/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mesa13/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_11/Aula_11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_12/Aula_12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_13/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_13/.idea/Aula_13.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_13/.idea/libraries/log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_13/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_13/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_13/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_14/Aula14/.idea/libraries/H2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_14/Aula14/src/FixMethodOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_14/Aula14/src/MedicamentoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_14/Aula14/src/MedicamentoServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula_14/Aula_14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../out/production/Aula_12/AulaIntegradora.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Primeiro_Modulo/Aula_1/Aula_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Primeiro_Modulo/Aula_1/Aula_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Primeiro_Modulo/Aula_5/Aula_5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Primeiro_Modulo/Aula_5/Aula_5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Primeiro_Modulo/Aula_9_/Mesa9_Flyweight/Mesa9_Flyweight.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Primeiro_Modulo/Aula_9_/Mesa9_Flyweight/Mesa9_Flyweight.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aula10/Aula10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula10/Aula10.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mesa10/Mesa10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mesa10/Mesa10.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula_13/Mesa13/Mesa13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula_13/Mesa13/Mesa13.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula_13/Mesa13/out/production/Mesa13/Dentista.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula_13/Mesa13/out/production/Mesa13/Dentista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula_13/Mesa13/out/production/Mesa13/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula_13/Mesa13/out/production/Mesa13/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula_13/Mesa13/src/Dentista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula_13/Mesa13/src/Dentista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula_13/Mesa13/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula_13/Mesa13/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula_14/Aula14/Aula14.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula_14/Aula14/Aula14.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula_14/Aula14/src/MedicamentosDaoH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula_14/Aula14/src/MedicamentosDaoH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mesa10/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mesa10/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula_12/AulaIntegradora/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula_12/AulaIntegradora/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
