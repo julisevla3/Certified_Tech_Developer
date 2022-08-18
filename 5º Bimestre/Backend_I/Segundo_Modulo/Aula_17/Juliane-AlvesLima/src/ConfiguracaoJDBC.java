@@ -23,7 +23,7 @@ public class ConfiguracaoJDBC {
         this.senha = "";
     }
 
-    public Connection conectarComBancoDeDados(){
+    public Connection conectarComBancoDeDados() {
         Connection connection = null;
 
         try {
@@ -31,7 +31,7 @@ public class ConfiguracaoJDBC {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        return  connection;
+        return connection;
     }
 
 

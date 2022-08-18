@@ -17,7 +17,7 @@ public class FilialDaoH2 implements IDao <Filial> {
     @Override
     public Filial salvar(Filial filial) {
         log.info("Registrando um nova filia no sistema "+filial.toString());
-        Connection connection = configuracaoJDBC.connectarComBancoDeDados();
+        Connection connection = configuracaoJDBC.conectarComBancoDeDados();
         Statement statement = null;
         String querySalvar = String.format("INSERT INTO filial(nome, rua, numero,cidade, estado,is5Estrelas) " +
                         "values('%s','%s','%s','%s','%s','%s')",
