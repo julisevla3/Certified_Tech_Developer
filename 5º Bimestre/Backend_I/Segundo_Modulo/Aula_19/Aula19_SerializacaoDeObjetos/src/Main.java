@@ -14,7 +14,7 @@ public class Main {
         cachorros.add(cachorro2);
 
 
-        //Salvamos toda a coleção de paginas em um arquivo
+        //Salvamos toda a coleção de cachorro em um arquivo
         FileOutputStream fo = null;
         try {
             fo = new FileOutputStream("OutPutFile.txt");
